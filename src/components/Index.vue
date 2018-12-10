@@ -1,8 +1,9 @@
 <template>
   <div class="menus">
-    <div class="menu" v-for="(menu,idx) in menus" :key="idx" :style="{background:menu.color}">
-      {{ menu.text }}
-    </div>
+    <a class="menu" v-for="(menu,idx) in menus" :href="menu.link" :key="idx"
+        :style="{background:menu.color}">
+        {{ menu.text }}
+    </a>
   </div>
 </template>
 
@@ -20,9 +21,10 @@ export default {
 .menus{
   display: flex;
   flex-flow: row wrap;
-  color:#fff;
   font-size: .5rem;
   .menu{
+    color:#fff;
+    text-decoration: none;
     flex: 0 0 44%;
     margin:.2rem 3%;
     height: 1rem;
