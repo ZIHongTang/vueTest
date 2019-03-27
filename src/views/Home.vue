@@ -21,7 +21,8 @@ export default {
         {text:"主商品变更",color:"#f00",link:'#/mainchange'},
         {text:"订购商品查询",color:"#0f0",link:'#/'},
         {text:"客户资料查询",color:"#0ff",link:'#/'},
-        {text:"客户资料查询",color:"#fff",link:'#/'}
+        {text:"客户资料查询",color:"#fff",link:'#/'},
+        {text:"日志查询",color:"#0ff",link:'#/'}
       ]
     };
   }
