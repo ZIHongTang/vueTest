@@ -24,8 +24,6 @@ export default {
         {text:"日志查询",color:"#0ff",link:'#/'},
         {text:"11111",color:"#0ff",link:'#/'},
         {text:"2222",color:"#0ff",link:'#/'},
-        {text:"3333",color:"#0ff",link:'#/'},
-        {text:"4444",color:"#0ff",link:'#/'}
       ]
     };
   }
