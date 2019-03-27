@@ -1,5 +1,7 @@
 module.exports = {
   baseUrl: process.env.NODE_ENV === 'production' ? 'http://infomation.pub/html/dist' : '',
+
+  // filenameHashing: false,
   // filenameHashing: false,
   productionSourceMap: false,
   css: {
